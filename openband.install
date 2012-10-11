@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function openband_install() {
+  // Set the default and admin themes
+  variable_set('theme_default', 'rubik');
+  variable_set("admin_theme", "rubik");
+  variable_set("node_admin_theme", '1');
+  theme_enable(array('rubik'));
+}

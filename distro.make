@@ -9,6 +9,7 @@ core = 7.x
 ;includes[] = https://raw.github.com/trexart/buildkit/master/distro.make
 includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make
 
+; remove buildkit profile download as it isn't needed and downloads a bunch of stuff
 projects[buildkit] = null
 
 ; Add openband profile to the full Drupal distro build

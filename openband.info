@@ -27,20 +27,20 @@ dependencies[] = path
 dependencies[] = taxonomy
 
 ; Contrib
-dependencies[] = admin
-dependencies[] = openid
-dependencies[] = openidadmin
-dependencies[] = coder
-dependencies[] = coder_review
-dependencies[] = context
-dependencies[] = context_ui
-dependencies[] = ctools
-dependencies[] = devel
-dependencies[] = diff
-dependencies[] = features
-dependencies[] = strongarm
-dependencies[] = views
-dependencies[] = views_ui
+;dependencies[] = admin
+;dependencies[] = openid
+;dependencies[] = openidadmin
+;dependencies[] = coder
+;dependencies[] = coder_review
+;dependencies[] = context
+;dependencies[] = context_ui
+;dependencies[] = ctools
+;dependencies[] = devel
+;dependencies[] = diff
+;dependencies[] = features
+;dependencies[] = strongarm
+;dependencies[] = views
+;dependencies[] = views_ui
 
 ; Features
 ;dependencies[] = openband_core

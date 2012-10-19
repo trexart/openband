@@ -2,27 +2,29 @@ name = OpenBand
 core = 7.x
 description = Profile for OpenBand distribution
 
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
 ; Core
-dependencies[] = block
-dependencies[] = contextual
-dependencies[] = dashboard
-dependencies[] = help
-dependencies[] = image
-dependencies[] = list
-dependencies[] = menu
-dependencies[] = number
-dependencies[] = options
-dependencies[] = path
-dependencies[] = taxonomy
-dependencies[] = syslog
-dependencies[] = search
-dependencies[] = shortcut
-dependencies[] = toolbar
-dependencies[] = overlay
-dependencies[] = field
+dependencies[] = book
+dependencies[] = contact
+dependencies[] = dblog
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = rdf
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
 
 ; Contrib
 dependencies[] = admin
@@ -39,11 +41,6 @@ dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = omega_tools
-dependencies[] = pathauto
-dependencies[] = strongarm
-dependencies[] = token
-dependencies[] = libraries
 
 ; Features
 ;dependencies[] = openband_core

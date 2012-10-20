@@ -17,14 +17,13 @@ dependencies[] = panopoly_search
 dependencies[] = panopoly_wysiwyg
 
 ; Core
-dependencies[] = book
-dependencies[] = contact
+;dependencies[] = contact
 dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
-dependencies[] = menu
-dependencies[] = path
-dependencies[] = taxonomy
+;dependencies[] = field_ui
+;dependencies[] = file
+;dependencies[] = menu
+;dependencies[] = path
+;dependencies[] = taxonomy
 
 ; Contrib
 ;dependencies[] = admin

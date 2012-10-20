@@ -46,16 +46,20 @@ projects[panopoly_search][subdir] = panopoly
 
 ; Themes ======================================================================
 
-projects[omega][type] = module
-projects[omega][version] = 3.1
+;projects[omega][type] = module
+;projects[omega][version] = 3.1
 
 ;projects[delta][type] = module
 ;projects[delta][subdir] = contrib
 ;projects[delta][version] = 3.0-beta11
 
-projects[omega_tools][type] = module
-projects[omega_tools][subdir] = contrib
-projects[omega_tools][version] = 3.0-rc4
+;projects[omega_tools][type] = module
+;projects[omega_tools][subdir] = contrib
+;projects[omega_tools][version] = 3.0-rc4
+
+projects[tao][version] = 3.0-beta4
+projects[rubik][version] = 4.0-beta8
+projects[sasson][version] = 2.6
 
 ; Libraries ===================================================================
 

@@ -19,6 +19,13 @@ function openband_gigs_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function openband_gigs_views_api() {
+  return array("version" => "3.0");
+}
+
+/**
  * Implements hook_node_info().
  */
 function openband_gigs_node_info() {

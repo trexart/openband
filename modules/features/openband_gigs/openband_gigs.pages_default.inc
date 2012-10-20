@@ -70,20 +70,31 @@ function openband_gigs_default_page_manager_pages() {
     $pane->pid = 'new-1';
     $pane->panel = 'contentmain';
     $pane->type = 'views_panes';
-    $pane->subtype = 'gigs-panel_pane_2';
+    $pane->subtype = 'openband_gigs-panel_pane_1';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
-      'view_mode' => 'teaser',
-      'widget_title' => NULL,
-      'items_per_page' => NULL,
+      'items_per_page' => '0',
+      'offset' => '0',
+      'fields_override' => array(
+        'title' => 1,
+        'field_gig_tickets_link' => 1,
+        'field_gig_date' => 1,
+        'field_gig_location' => 1,
+      ),
       'exposed' => array(
+        'widget_title' => '',
+        'use_pager' => 0,
+        'pager_id' => '0',
         'sort_by' => NULL,
         'sort_order' => NULL,
       ),
+      'override_title' => '',
+      'override_title_text' => '',
+      'view_mode' => 'teaser',
+      'widget_title' => '',
       'use_pager' => NULL,
       'pager_id' => NULL,
-      'offset' => NULL,
       'link_to_view' => NULL,
       'more_link' => NULL,
       'path' => NULL,

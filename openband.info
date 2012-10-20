@@ -45,3 +45,4 @@ dependencies[] = taxonomy
 ; Features
 ;dependencies[] = openband_core
 ;dependencies[] = openband_blog
+dependencies[] = openband_gigs

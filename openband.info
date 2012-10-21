@@ -42,6 +42,6 @@ dependencies[] = dblog
 ;dependencies[] = views_ui
 
 ; Features
-;dependencies[] = openband_core
-;dependencies[] = openband_blog
+dependencies[] = openband_core
+dependencies[] = openband_news
 dependencies[] = openband_gigs

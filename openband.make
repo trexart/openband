@@ -45,8 +45,14 @@ projects[panopoly_search][subdir] = panopoly
 projects[media_gallery][version] = 1.0-beta8
 projects[media_gallery][subdir] = contrib
 
+projects[multiform][version] = 1.0
+projects[multiform][subdir] = contrib
+
 projects[plupload][version] = 1.0
 projects[plupload][subdir] = contrib
+
+projects[menu_trail_by_path][version] = 2.0-rc2
+projects[menu_trail_by_path][subdir] = contrib
 
 ; Features ====================================================================
 

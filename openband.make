@@ -42,6 +42,12 @@ projects[panopoly_search][subdir] = panopoly
 
 ; Modules =====================================================================
 
+projects[media_gallery][version] = 1.0-beta8
+projects[media_gallery][subdir] = contrib
+
+projects[plupload][version] = 1.0
+projects[plupload][subdir] = contrib
+
 ; Features ====================================================================
 
 ; Themes ======================================================================

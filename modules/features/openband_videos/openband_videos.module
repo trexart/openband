@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Videos feature.
+ */
+
+include_once 'openband_videos.features.inc';
